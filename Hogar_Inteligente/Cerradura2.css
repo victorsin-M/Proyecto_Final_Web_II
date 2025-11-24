@@ -1,0 +1,31 @@
+
+        .detalle-producto {
+            max-width: 700px;
+            margin: 40px auto;
+            background: #fff;
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.20);
+            text-align: center;
+        }
+
+        .detalle-producto img {
+            width: 260px;
+            margin-bottom: 20px;
+        }
+
+        .btn-volver {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background: rgb(0, 120, 255);
+            color: white;
+            border-radius: 8px;
+            text-decoration: none;
+            transition: background .2s;
+        }
+
+        .btn-volver:hover {
+            background: rgb(0, 80, 200);
+        }
+   
