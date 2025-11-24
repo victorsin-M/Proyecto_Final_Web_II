@@ -18,15 +18,23 @@
     </header>
 
     <main>
-        <nav class="brand-links" aria-label="Marcas">
-            <ul style="list-style:none; display:flex; gap:16px; justify-content:center; padding:0; margin:10px 0 20px 0;">
-                <li><a href="#iphone">iPhone</a></li>
-                <li><a href="#huawei">Huawei</a></li>
-                <li><a href="#samsung">Samsung</a></li>
-                <li><a href="#xiaomi">Xiaomi</a></li>
-                <li><a href="#todas">Ver todas</a></li>
-            </ul>
-        </nav>
+        <!-- Controles de marcas sin JavaScript: radios + labels -->
+        <div class="brand-tabs" role="tablist" aria-label="Seleccionar marca">
+            <input type="radio" name="brand" id="brand-all" checked>
+            <label for="brand-all">Todas</label>
+
+            <input type="radio" name="brand" id="brand-iphone">
+            <label for="brand-iphone">iPhone</label>
+
+            <input type="radio" name="brand" id="brand-huawei">
+            <label for="brand-huawei">Huawei</label>
+
+            <input type="radio" name="brand" id="brand-samsung">
+            <label for="brand-samsung">Samsung</label>
+
+            <input type="radio" name="brand" id="brand-xiaomi">
+            <label for="brand-xiaomi">Xiaomi</label>
+        </div>
 
         <section id="productos" class="productos">
     
@@ -41,7 +49,7 @@
             </article>
 
             <article class="producto">
-                <a href="https://www.apple.com/mx/iphone-12/" target="_blank" rel="noopener noreferrer" aria-label="Ver iPhone 12 en Apple">
+                <a href="iphone_12.html" target="_blank" rel="noopener noreferrer" aria-label="Ver iPhone 12 en Apple">
                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToRxr5xC9SgV5zbzpH9h0oA6ZAnae2lcnyPN-jJHrQScNmpqWXaNhUTLZ6X9tm_O8D5qI&usqp=CAU" alt="iPhone 12" />
                 </a>
                 <h3>iPhone 12</h3>
@@ -51,7 +59,7 @@
 
             <h2 id="huawei" style="grid-column:1/-1; text-align:center;">Huawei</h2>
             <article class="producto">
-                <a href="https://consumer.huawei.com/mx/phones/p40-pro/" target="_blank" rel="noopener noreferrer" aria-label="Ver Huawei P40 Pro en Huawei">
+                <a href="Huawei_P40_Pro.html" target="_blank" rel="noopener noreferrer" aria-label="Ver Huawei P40 Pro en Huawei">
                     <img src="https://www.tuexperto.com/wp-content/uploads/2020/02/huawei-p40-pro-02-940x640.jpg.webp" alt="Huawei P40 Pro" />
                 </a>
                 <h3>Huawei P40 Pro</h3>
@@ -61,7 +69,7 @@
 
             <h2 id="samsung" style="grid-column:1/-1; text-align:center;">Samsung</h2>
             <article class="producto">
-                <a href="https://www.samsung.com/mx/smartphones/galaxy-s21-5g/" target="_blank" rel="noopener noreferrer" aria-label="Ver Galaxy S21 en Samsung">
+                <a href="Galaxy_S21.html" target="_blank" rel="noopener noreferrer" aria-label="Ver Galaxy S21 en Samsung">
                     <img src="https://m.media-amazon.com/images/I/61hoN03CsIL.jpg" alt="Samsung Galaxy S21" />
                 </a>
                 <h3>Galaxy S21</h3>
@@ -71,7 +79,7 @@
 
             <h2 id="xiaomi" style="grid-column:1/-1; text-align:center;">Xiaomi</h2>
             <article class="producto">
-                <a href="https://www.mi.com/global/redmi-note-10/" target="_blank" rel="noopener noreferrer" aria-label="Ver Redmi Note 10 en Xiaomi">
+                <a href="Redmi_Note_10.html" target="_blank" rel="noopener noreferrer" aria-label="Ver Redmi Note 10 en Xiaomi">
                     <img src="https://i.blogs.es/3a3421/xiaomi-redmi-note-10-0/840_560.jpeg" alt="Xiaomi Redmi Note 10" />
                 </a>
                 <h3>Redmi Note 10</h3>
@@ -90,6 +98,12 @@
         <p><strong>Preparatoria:</strong> Preparatoria San Jose Del Valle</p>
         <p><strong>Materia:</strong> Programacion Web II</p>
     </footer>
+    
+
+
+</body>
+</html>
+
 
 </body>
 </html>
